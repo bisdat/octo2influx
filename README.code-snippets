@@ -1,0 +1,20 @@
+mkdir for mounts
+docker-compose build
+then portainer create stack
+
+load grafana web
+grafana -
+setup influxdb datasource (flux query)
+user admin/password
+add token
+test connection
+change datasource name to match that in the dashboard import json
+import new dashboard
+
+load influx web
+create admin password
+create orgs & buckets
+create token
+
+insert into config.yaml if necessary
+restart stack

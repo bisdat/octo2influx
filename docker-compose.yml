@@ -35,9 +35,10 @@ services:
       - GF_DATE_FORMATS_INTERVAL_DAY=DD/MM
 
   octo2influx:
-    build:
-      context: ./src
-    image: "octo2influx:latest"
+    --build:
+      --context: ./src
+    --image: "octo2influx:latest"
+    image: "bisdat/octo2influx:latest"
     restart: always
     logging:
         driver: "json-file"
