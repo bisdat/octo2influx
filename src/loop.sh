@@ -11,6 +11,7 @@
 #       usage
 #fi
 
+FREQ = 3600
 echo "$(date +"%F %T") Starting with FREQ=$FREQ..."
 while : ; do
 	# Arbitrary sleep to make sure we don't DDoS Octopus if we have a bug
