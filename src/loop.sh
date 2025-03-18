@@ -18,7 +18,7 @@ while : ; do
 	echo "$(date +"%F %T") Sleeping short amount of time out of safety..."
 	sleep 7
 
-	python3 ./octo2influx.py
+	python3 ./octo2influx.py --to_days_ago 1
 
 	echo "$(date +"%F %T") Sleeping $FREQ..."
 	sleep "$FREQ"
