@@ -5,7 +5,7 @@ Download your Octopus Energy usage, import and export (if you have solar panels)
 
 ## Referral
 
-If you are interested in this and would like to join Octopus, why not use my [referral link](https://share.octopus.energy/amber-birch-257)? This will give you and me [£50 each](https://octopus.energy/help-and-faqs/articles/i-have-a-question-about-octopus-pound50-referrals/).
+If you are interested in this and would like to join Octopus, why not use my [referral link](https://share.octopus.energy/night-snail-471)? This will give you and me [£50 each](https://octopus.energy/help-and-faqs/articles/i-have-a-question-about-octopus-pound50-referrals/).
 
 ## About
 
