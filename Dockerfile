@@ -10,7 +10,7 @@ COPY src/config.example.yaml config.yaml
 COPY src/requirements.txt ./
 RUN pip install --no-cache-dir -r requirements.txt
 
-COPY src/octo2influx.py loop.sh ./
+COPY src/octo2influx.py src/loop.sh ./
 
 USER octo2influx
 
