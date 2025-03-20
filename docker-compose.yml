@@ -38,7 +38,7 @@ services:
 #    --build:
 #      --context: ./src
 #    --image: "octo2influx:latest"
-    build: ./src
+#    build: ./src
     image: "bisdat/octo2influx:latest"
     restart: always
     logging:
@@ -47,8 +47,7 @@ services:
             max-file: "5"
             max-size: "20m"
     volumes:
-     # - "C:/Users/clive/source/repos/octo2influx2/config.yaml:/usr/src/app/config.yaml"
-      - "/home/clive/octo2influx/config.yaml:/usr/src/app/config.yaml"
+      - "~/octo2influx/config.yaml:/usr/src/app/config.yaml"
     environment:
       FREQ: "1h"
 
