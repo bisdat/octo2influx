@@ -1,6 +1,6 @@
 FROM python:3.13-slim
 
-LABEL maintainer="Thibault Godouet <yo8192@users.noreply.github.com>"
+LABEL maintainer="bisdat <octo2influx@noreply.github.com>"
 
 WORKDIR /usr/src/app
 
