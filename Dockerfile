@@ -6,11 +6,11 @@ WORKDIR /usr/src/app
 
 # python Confuse requires the home to exist:
 RUN useradd -u 9923 octo2influx --create-home
-COPY ./config.example.yaml config.yaml
-COPY ./requirements.txt ./
+COPY src/config.example.yaml config.yaml
+COPY src/requirements.txt ./
 RUN pip install --no-cache-dir -r requirements.txt
 
-COPY ./octo2influx.py loop.sh ./
+COPY src/octo2influx.py loop.sh ./
 
 USER octo2influx
 
