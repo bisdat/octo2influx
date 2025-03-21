@@ -1,4 +1,4 @@
-mkdir for mounts
+mkdir for mounts - this should really bne a directory and confuse find it
 docker-compose build
 then portainer create stack
 
