@@ -46,7 +46,8 @@ services:
             max-file: "5"
             max-size: "20m"
     volumes:
-      - "./config.yaml:/etc/octo2influx/config.yaml"
+      #- "./config.yaml:/etc/octo2influx/config.yaml"
+      - "~/octo2influx/config/:/usr/src/app/config/"
     environment:
       FREQ: "1h"
 
