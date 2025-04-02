@@ -47,11 +47,9 @@ services:
             max-file: "5"
             max-size: "20m"
     volumes:
-      #- "~/octo2influx/config.yaml:/usr/src/app/config.yaml"
       - "~/octo2influx/config/:/usr/src/app/config/"
     environment:
       FREQ: "1h"
-
 
 volumes:
   grafanadata:
